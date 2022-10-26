@@ -1,11 +1,42 @@
-.wrapper, html, body {
+.wrapper, html, body, #container, #portfolio{
     height: 100%;
     margin: 0;
 }
 
+#container {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 600px;
+}
+
 #header {
-    
-    height: 500px;
-    width: 100%;
-    background: linear-gradient(170deg, green 50%, white 50%);
+    height: 400px;
+    background: linear-gradient(165deg, green 50%, white 50%);
+    margin-bottom: -100px;
+}
+
+#contact {
+    margin-top: auto;
+    background-color: green;
+    color:white;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-contact {
+    font-size: 30px;
+}
+
+.image {
+    width: 300px;
+    height: auto;
 }
