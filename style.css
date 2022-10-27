@@ -13,13 +13,75 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 600px;
+    width: 700px;
 }
 
 #header {
     height: 400px;
     background: linear-gradient(165deg, green 50%, white 50%);
-    margin-bottom: -100px;
+    margin-bottom: 0;
+    min-height: 400px;;
+}
+
+#work-section {
+    padding: 20px 40px;
+    margin-bottom: 50px;
+}
+
+.mywork {
+    font-size: 30px;
+    margin-bottom: 20px;
+    box-shadow: 50px, 50px, black;
+}
+
+.img1 {
+    background-color: rgb(167, 38, 38);
+}
+
+.img2 {
+    background-color: rgb(51, 122, 122);
+}
+
+.img3 {
+    background-color: rgb(25, 104, 25);
+}
+
+.img4 {
+    background-color: rgb(155, 113, 155);
+}
+
+.img5 {
+    background-color: rgb(170, 115, 13);
+}
+
+.img6 {
+    background-color: rgb(85, 75, 47);
+}
+
+.img1, .img2, .img3,
+.img4, .img5, .img6 {
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.project1, .project2, .project3,
+.project4, .project5, .project6 {
+    box-shadow: 2px 2px 3px 3px rgb(226, 221, 221);
+  
+}
+
+.desc1, .desc2, .desc3,
+.desc4, .desc5, .desc6 {
+    padding: 10px 20px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 20px;
+   
 }
 
 #contact {
